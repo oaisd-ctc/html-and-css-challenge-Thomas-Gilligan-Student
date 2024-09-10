@@ -1,0 +1,26 @@
+nav {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: right;
+}
+
+.nav-item {
+    display: inline-block;
+    padding: .5em 1em;
+    background-color: white;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+header {
+    padding: .5em 1em;
+}
+
+.nav-item:hover {
+    background-color: lightgreen;
+    opacity: 50%;
+    color: black;
+    transition-duration: 1s;
+    transition-property: all;
+}
